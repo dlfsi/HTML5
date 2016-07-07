@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <style>
+        header, footer, section {
+            background-color: skyblue;
+            color: black;
+            padding: 15px 15px;
+            border: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px 2px orange
+        }
+        section {
+            float:left;
+            width:31%
+        }
+        footer {
+            float: inherit;
+            text-align: center;
+            clear:both;
+            color: #757;
+            padding: 10px 50px
+        }
+        summary::-webkit-details-marker {
+            color:#FF0000;
+            background:orange;
+        }
+        details[open] summary::-webkit-details-marker {
+            color:#0000FF;
+            background:#00FFFF;
+        }
+        summary:after {
+            content: "+";
+            color: #FF00FF;
+            float: left;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: -5px 5px 0 0;
+            padding: 0;
+            text-align: center;
+            width: 20px;
+        }
+    </style>
+<body>
+    <header>
+        <code>&lt;header&gt;</code>
+    </header>
+
+    <section>
+        <details>
+            <summary>
+                How to beat the boss...spoiler alert !
+             </summary>
+             <p> Just aim to the red spots near his eyes</p>
+             <p>Keep shooting at these spots until the eyes open, then hit quickly both eyes with your laser beam.</p>
+             <details>
+                 <summary>
+                     Bonus and spoiler No 2: get a new weapon by cutting the tail of the boss.
+                 </summary>
+                 <p>Before finishing him, try to cut his trail, you will get a new weapon</p>
+                 <p>Just try to stay behind him as long as you can, hitting his tail with your melee weapon, after a few hits the trail will fall and you will get a new bonus weapon, then finish the boss.</p>
+            </details>
+         </details>
+    </section>
+    <section>
+        <details>
+            <summary>
+                How to beat the boss...spoiler alert !
+            </summary>
+               <p> Just aim to the red spots near his eyes</p>
+               <p>Keep shooting at these spots until the eyes open, then hit quickly both eyes with your laser beam.</p>
+        </details>
+    </section>
+
+    <section>
+        <h2>Recipe:</h2>
+        <ul>
+          <li> Preparation time: <time datetime="P30M">30 minutes</time> </li>
+          <li> Cooking time:     <time datetime="P10M"> 10 minutes</time> </li>
+        </ul>
+    </section>
+
+    <footer>
+        <code>&lt;footer&gt;</code>
+    </footer>
+    </body>
+</html>

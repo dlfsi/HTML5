@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8" />
+        <title>Simple HTML5 example</title>
+        <script src="scripts/showPic.js"></script>
+        <link rel="stylesheet" href="css/layout.css" media="screen" />
+    </head>
+    <body>
+        <header>
+           <h1>what to buy</h1>
+            <p title="a gentle reminder">don't forget to buy these stuffs</p>
+        </header>
+        <section>
+           <article>
+               <ul id="imageList">
+                    <li><a href="images/1.jpg" title="this is a stock list" onclick="selectPicture(this);return false;">Fireworks</a></li>
+                    <li class="sale"><a href="images/2.jpg" title="another stock transaction">Coffee</a></li>
+                    <li class="sale"><a href="images/3.jpg" titlee="nantien temple">milk</a></li>
+               </ul>
+               <img id="placeholder" src="images/empty.jpg" alt="my images gallery" />
+               <p id="description">choose an image</p>
+               <a href="#" onclick="popUp('http://www.google.com/');return false;">example</a>
+            </article>
+        </section>
+        <footer>
+           <p title="p of footer">2016 Some practice</p>
+        </footer>
+        </body>
+</html>
