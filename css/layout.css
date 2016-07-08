@@ -10,3 +10,8 @@ img {
     display: block;
     clear:both
 }
+a:hover{
+    font-weight: bold;
+    color: white;
+    background-color: red
+}
